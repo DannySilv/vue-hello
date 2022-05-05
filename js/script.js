@@ -6,6 +6,9 @@ const app = new Vue(
         data: {
             titleText: 'Hello World!',
             titleClass: 'title',
+            imgContainerClass: 'img-container',
+            altImg: 'tramonto',
+            srcImg: `img/tramonto.jpg`,
         }
     }
 ); 
